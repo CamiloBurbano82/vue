@@ -1,4 +1,95 @@
-div{
-    margin: 10px;
-    padding: 10px;
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.operaciones, .directivas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.directivas input, select, button {
+    width: 100px;
+}
+
+.input {
+    display: flex;
+    flex-direction: row;
+
+}
+
+input {
+    width: 70px;
+    margin: 10px;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+
+table {
+    table-layout: fixed;
+    width: 45%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+}
+
+thead th:nth-child(1) {
+    width: 15%;
+}
+
+thead th:nth-child(2) {
+    width: 15%;
+}
+
+thead th:nth-child(3) {
+    width: 15%;
+}
+
+
+th,
+td {
+    padding: 20px;
+}
+
+thead th, tfoot th {
+    font-family: 'Rock Salt', cursive;
+  }
+  
+  th {
+    letter-spacing: 2px;
+  }
+  
+  td {
+    letter-spacing: 1px;
+  }
+  
+  tbody td {
+    text-align: center;
+  }
+  
+  tfoot th {
+    text-align: right;
+  }
+
+  tbody tr:nth-child(odd) {
+    background-color: #ff33cc;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #e495e4;
+  }
+  
+
+  
+  table {
+    background-color: #ff33cc;
+  }
+
+  thead th, tfoot th, tfoot td {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+    border: 3px solid purple;
+  }
